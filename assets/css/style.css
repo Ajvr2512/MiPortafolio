@@ -129,6 +129,10 @@ margin-right: 250px;
     height: 50px;
     display: flex;
     justify-content:left;
+    
+}
+.icon__shape:hover{
+    transform: scale(1.5);
 }
 .icon__shape a {
     color: var(--yellow);
@@ -255,9 +259,12 @@ width: 100%;
     margin-right: 40%;
     margin-top: 10%;
 }
-.icon__experience a {
-    color: var(--white);
-    font-size: 45px;
+.icon__experience img {
+    width: 65px;
+    transition: transform.2s;
+}
+.icon__experience:hover {
+    transform: scale(1.5);
 }
 .text__experience{
     margin-top: 20px;
@@ -353,6 +360,10 @@ width: 100%;
 .briefcase__img{
     max-width: 40%;
    background-color: var(--yellow);
+
+}
+.briefcase__img:hover{
+transform: scale(1.2);
 
 }
 .briefcase__img img{
